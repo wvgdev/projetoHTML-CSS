@@ -71,10 +71,10 @@ img:hover{
     width: 280px;
     text-align: center;
     border-radius: 16px;
-    font-size: 24px bold;
+    font-size: 20px;
     padding: 18px 0;
     text-decoration: none;
-    color: #000000;
+    color: #e5f3f1;
     font-family: "Roboto Mono", monospace;
     
 }
