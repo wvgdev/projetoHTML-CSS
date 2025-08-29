@@ -27,6 +27,25 @@
         </section>
         <img src="136028464.jpg" alt="Minha foto de perfil">
     </main>
+    <script>
+        // cria várias gotas dinamicamente
+        const numGotas = 100; // quantidade de gotas
+        for (let i = 0; i < numGotas; i++) {
+            const gota = document.createElement("div");
+            gota.classList.add("chuva");
+
+            // posição horizontal aleatória
+            gota.style.left = Math.random() * window.innerWidth + "px";
+
+            // duração aleatória para não ficarem iguais
+            gota.style.animationDuration = (0.5 + Math.random() * 1.5) + "s";
+
+            // delay aleatório para não começarem juntas
+            gota.style.animationDelay = Math.random() * 2 + "s";
+
+            document.body.appendChild(gota);
+        }
+    </script>
     <footer></footer>
 </body>
 

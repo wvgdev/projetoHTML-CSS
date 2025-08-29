@@ -85,3 +85,18 @@ img:hover{
     font-style: italic;
     font-weight: bold;
 }
+
+.chuva {
+      position: absolute;
+      width: 2px;
+      height: 15px;
+      background: rgba(255, 255, 255, 0.6); /* cor das gotas */
+      bottom: 100%;
+      animation: cair linear infinite;
+    }
+
+@keyframes cair {
+      to {
+        transform: translateY(100vh);
+      }
+    }
