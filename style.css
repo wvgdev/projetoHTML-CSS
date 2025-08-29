@@ -1,0 +1,15 @@
+body{
+    background-color: #03093B;
+    color: #FFFFFF;
+}
+
+strong{
+    font-weight: bold;
+    color: #5F58F5;
+}
+
+img{
+    border-radius: 35%;
+    padding: 6px;
+    border: 10px outset #2d2b57;
+}
